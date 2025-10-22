@@ -1,2 +1,67 @@
 @import "tailwindcss";
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+/* @import "tailwindcss/preflight";
+@import "tailwindcss/utilities"; */
 
+.nav__link {
+  position: relative;
+  font-size: 1rem;
+  font-weight: 500;
+  width: fit-content;
+  display: block;
+}
+
+.nav__link::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 3px;
+  background-color: #0d9488;
+  width: 100%;
+  transform: scaleX(0);
+  transition: transform 300ms;
+  transform-origin: center;
+}
+
+.nav__link:hover::after {
+  transform: scaleX(1);
+}
+
+
+/* @layer utilities {
+    .nav__link {
+        @apply relative text-base font-medium w-fit block after:block after:content-[''] 
+        after:absolute after:h-[3px] after:bg-teal-600 after:w-full after:scale-x-0 
+        after:hover:scale-x-100 after:transition after:duration-300 after:origin-left
+    }
+} */
+
+/* @theme {
+  --nav-link-base: relative text-base font-medium w-fit block;
+  --nav-link-after: block absolute h-[3px] bg-teal-600 w-full scale-x-0 origin-left;
+  --nav-link-after-hover: scale-x-100;
+} */
+
+/* 
+@layer components {
+  .nav__link {
+    @apply relative text-base font-medium w-fit block;
+  }
+
+  .nav__link::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0d9488; /* Tailwind's teal-600 */
+    /* width: 100%;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 300ms;
+  }
+
+  .nav__link:hover::after {
+    transform: scaleX(1);
+  }
+} */
