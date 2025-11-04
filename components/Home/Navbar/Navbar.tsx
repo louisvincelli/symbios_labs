@@ -68,7 +68,7 @@ const Navbar = ({openNav}:Props) => {
         <div className='flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto'>
             {/* LOGO */}
             <h1 className='text-xl md:text-2xl font-bold'>
-                <span className='text-3xl md:text-4xl text-sky-500'>Sym</span>bios
+                <span className='text-3xl md:text-4xl text-teal-500/80'>Sym</span>bios
             </h1>
             {/* NavLinks */}
             <div className='hidden lg:flex items-center space-x-10'>
@@ -80,7 +80,7 @@ const Navbar = ({openNav}:Props) => {
             </div>
             {/* Buttons */}
             <div className='flex items-center space-x-4'>
-                <button className='md:ps-8 md:py-2.5 px-6 py-2 text-white font-semibold text-base bg-sky-700
+                <button className='md:ps-8 md:py-2.5 px-6 py-2 text-white font-semibold text-base bg-teal-500/70
                  hover:bg-sky-300 transition-all duration-200 rounded-full'
                 >
                     Join Now
