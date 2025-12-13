@@ -3,6 +3,7 @@ import Hero from './Hero/Hero';
 import Research from './Research/Research';
 import Philosophy from './Philosophy/Philosophy';
 import Projects from './Projects/Projects';
+import Publications from './Publications/Publications';
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Research />
       <Philosophy />
       <Projects />
+      <Publications />
     </div>
   );
 };

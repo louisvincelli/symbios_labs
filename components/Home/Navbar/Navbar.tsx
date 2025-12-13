@@ -81,7 +81,7 @@ const Navbar = ({openNav}:Props) => {
             {/* Buttons */}
             <div className='flex items-center space-x-4'>
                 <button className='md:ps-8 md:py-2.5 px-6 py-2 text-white font-semibold text-base bg-teal-500/70
-                 hover:bg-sky-300 transition-all duration-200 rounded-full'
+                 hover:bg-sky-300 hover:cursor-pointer transition-all duration-200 rounded-full'
                 >
                     Join Now
                 </button>

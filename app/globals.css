@@ -18,7 +18,8 @@
   display: block;
   position: absolute;
   height: 3px;
-  background-color: #0d9488;
+  /* background-color: #0d9488; */
+  background-color: skyblue;
   width: 100%;
   transform: scaleX(0);
   transition: transform 300ms;

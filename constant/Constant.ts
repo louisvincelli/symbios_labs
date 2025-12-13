@@ -12,12 +12,12 @@ export const navLinks = [
     {
         id: 3,
         url: "#",
-        label: "Feature"
+        label: "Research"
     },
     {
         id: 4,
         url: "#",
-        label: "Testimonial"
+        label: "Publications"
     },
     {
         id: 5,
