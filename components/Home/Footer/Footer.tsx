@@ -66,7 +66,7 @@ const Footer = () => {
             </div>
             {/* Footer Bottom */}
             <div className='mt-8 border-t pt-8 flex flex-col md:flex-row justify-between items-center text-gray-600 text0sm'>
-                <p className='text-center md:text-left'>&copy; 2026 Symbios Labs. All rights reserved.</p>
+                <p className='text-center md:text-left'>&copy; Copyright {new Date().getFullYear()} Symbios Labs. All rights reserved.</p>
                 <div className='flex items-center space-x-4 mt-4 md:mt-0'>
                     <span>Socials : </span>
                     <Link href={"#"} className='hover:text-teal-500/80'>
